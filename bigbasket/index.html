@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2384c225'><circle cx='12' cy='12' r='10'/><path d='M8 12l3 3 5-5' stroke='white' stroke-width='2.5' fill='none'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreshBasket - Online Indian Grocery Supermarket</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN for instant, error-free styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
+            },
+            colors: {
+              bb: {
+                green: '#84c225',
+                darkGreen: '#689f38',
+                deepGreen: '#1b4313',
+                lightGreen: '#f4f9ec',
+                red: '#e23744',
+                orange: '#ff6f00',
+                yellow: '#f8b600',
+                dark: '#222222',
+                gray: '#555555',
+                lightGray: '#f8f8f8',
+                border: '#e5e7eb',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-gray-50 text-gray-900 font-sans selection:bg-green-100 selection:text-green-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
